@@ -7,8 +7,6 @@ from typing import List
 import sys
 import math
 
-sys.stdout = open('test/output.txt', 'w')
-sys.stdin = open('test/input.txt', 'r')
 
 random.seed(time.time())
 def helper():
